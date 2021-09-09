@@ -17,6 +17,13 @@
         <!-- Contenido de mi pagina web -->
         <header>
             <!-- Logo de la pagina -->
+            <h1>
+                <a target="_blank" href="https://misiontic2022.unab.edu.co">
+                    <img width="80px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAB7c07FE1Y4CPB-IaH-qDEUI81365vwwFR_FXYb65jqqStKtRad7f4v__df785ltYi4&usqp=CAU"
+                    alt="MisionTic 2022"/>
+                </a>
+                Pagina de Elementos HTML
+            </h1> 
             <nav>
                 <!-- Menus o iconos -->
             </nav>
@@ -26,14 +33,93 @@
         </aside>
         <main>
             <!-- Contenido principal -->
-            <h1>Pagina de elementos HTML</h1> 
             
             <h2>Encabezados</h2>
             <h1>Título</h1>
             <h2>Subtítulo</h2>
             <h3>Titulo 3</h3>
+            <br/>
+
+            <h2>Listas</h2>
+            <h3>Ordenadas</h3>
+            <ol type="I">
+                <li>Local</li>
+                <li>Nacional</li>
+                <li>Internacional</li>
+            </ol>
+
+            <h3>Desordenadas</h3>
+            <ul>
+                <li>Normal</li>
+                <li>Express</li>
+                <li>
+                    <a href="OtraPagina.html">Ir a la otra pagina</a>
+                </li>
+            </ul>
+            <dt> GLOSARIO
+                <dd>Lenguaje de hipertexto de marcado</dd>
+            </dt>
+
+            <br/>
+            <h2>Enlaces</h2>
+            <a target="_blank" href="https://misiontic2022.unab.edu.co">Ir a la pagina de MisionTic</a>
+            <a href="OtraPagina.html">Ir a la otra pagina</a>
+
+            <h2>Imagenes</h2>
+            <img width="488px" 
+                src="https://www.rubenyelmundo.com/wp-content/uploads/2020/04/jorge-gardner-5DqvsOPKdlk-unsplash-1.jpg"
+                alt="Envio Local" />
+            <img width="488px"
+                src="https://cde.peru.com//ima/0/0/6/4/8/648509/380x300/afganistan.jpg"
+                alt="Envio Nacional"/>
+
+            <h2>Tablas</h2>
+            <table border="1" width="400px">
+                <thead>
+                    <tr>
+                        <th>Cliente</th>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Juan</td>
+                        <td>Mouse</td>
+                        <td>4</td>
+                        <td>$200000</td>
+                    </tr>
+                    <tr>
+                        <td>Laptop</td>
+                        <td>2</td>
+                        <td>$1000000</td>
+                    </tr>
+                    <tr>
+                        <td>Maria</td>
+                        <td>Disco Duro</td>
+                        <td>2</td>
+                        <td>$240000</td>
+                    </tr>
+                    <tr>
+                        <td>Jose</td>
+                        <td>Memoria USB</td>
+                        <td>10</td>
+                        <td>$700000</td>
+                    </tr>
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="3">Total Compras</th>
+                        <th>$1300000</th>
+                    </tr>
+                </tfoot>
+            </table>
 
         </main>
+        <br>
+        <br>
         <footer>
             <!-- Pie de pagina -->
         </footer>
