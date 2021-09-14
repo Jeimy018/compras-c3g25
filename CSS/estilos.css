@@ -1,0 +1,31 @@
+#titulo_enlaces{
+    background-color: lightcoral;
+    color: black;
+    text-align: center;
+    font-size: 32pt;
+    width: 156px;
+}
+
+.fondo_azul{
+    background-color: lightskyblue;
+    color: darkblue;
+    font-size: 48pt;
+    text-align: right;
+}
+
+h2{
+    color: rgba(48, 197, 177, 0.822);
+    font-size: 50pt;
+}
+
+h2{
+    font-size: 16pt;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+a:focus{
+    color: red;
+}
