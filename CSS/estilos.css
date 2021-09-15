@@ -22,10 +22,29 @@ h2{
     font-size: 16pt;
 }
 
-body{
-    background-color: lightgrey;
+a:visited{
+    background-color: blueviolet;
+    color: yellowgreen;
+}
+
+a:link{
+    color: red;
+    font-size: 16pt;
+}
+
+a{
+    color: black;
 }
 
 a:focus{
     color: red;
+}
+
+#desordenadas li{
+    background-color:crimson;
+    margin-bottom: 8px;
+}
+
+th:active{
+    background-color: darkcyan;
 }

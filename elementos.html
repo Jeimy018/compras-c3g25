@@ -10,9 +10,44 @@
         href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTA4S731v7sftv3Wdmflg9oLmzuUJdWg-bQg&usqp=CAU"
 
         type="image/vnd.microsoft.icon"/>
-        <link rel="stylesheet" href="CSS/estilos.css">
+       <!--  <link rel="stylesheet" href="CSS/estilos.css"> -->
 
-    <!-- CSS
+       <style>
+           *{
+               margin:0;
+               padding:0;
+           }
+
+           header{
+               border: 2px solid rgb(105, 105, 235);
+           }
+           main{
+               border: 2px solid yellowgreen;
+               width: 80%;
+               margin: 32px auto;
+               padding: 32px;
+               /* margin-top: 32px;
+               margin-left: auto;
+               margin-right: auto; */
+               ;
+           }
+
+           main h3, main a, main img{
+                border: 2px solid purple;
+                padding: 16px;
+           }
+           footer{
+               border: 2px solid blue;
+           }
+
+           h2{
+               display:block;
+               
+           }
+
+       </style>
+    <!--
+         CSS
     Formas de aplicar CSS:
     1. Archivo esterno .css (etiqueta link)
     2. etiqueta style (dentro de head)
@@ -69,7 +104,7 @@
             </ol>
 
             <h3>Desordenadas</h3>
-            <ul>
+            <ul id="desordenadas">
                 <li>Normal</li>
                 <li>Express</li>
                 <li>
@@ -81,12 +116,12 @@
             </dt>
 
             <br/>
-            <h2 style="background-color: lightseagreen; color: black;text-align: start; class="fondo_azul" id="titulo_enlaces" ">Enlaces</h2>
+            <h2 style="background-color: lightseagreen; color: black;text-align: start"; class="fondo_azul" ; id="titulo_enlaces">Enlaces</h2>
             <a target="_blank" href="https://misiontic2022.unab.edu.co">Ir a la pagina de MisionTic</a>
             <a href="OtraPagina.html">Ir a la otra pagina</a>
 
             <h2>Imagenes</h2>
-            <img width="488px" 
+            <img  width="488px" 
                 src="https://www.rubenyelmundo.com/wp-content/uploads/2020/04/jorge-gardner-5DqvsOPKdlk-unsplash-1.jpg"
                 alt="Envio Local" />
             <img width="488px"
@@ -186,6 +221,6 @@
         <footer>
             <!-- Pie de pagina -->
         </footer>
-    </body>
 
+    </body>
 </html>
