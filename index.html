@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de compras</title>
+
+    <style>
+        body{
+            background-color: gainsboro;
+            display: grid;
+            grid-template-columns: 1fr 5fr;
+            grid-template-rows: 80px 40px 1fr 32px;
+            grid-auto-rows: 256px ;
+            height: 100vh;
+            
+        }
+        header{
+            background-color: lightskyblue;
+            grid-column: 1/3; 
+        }
+        nav{
+            background-color: pink;
+            grid-column: 1/3; 
+
+        }
+        aside{
+            background-color:lightsalmon;
+
+        }
+        main{
+            background-color: lightgoldenrodyellow;
+            /* grid-column: 2/span 5; */
+            
+        }
+        footer{
+            background-color:lightgreen;
+            grid-column: 1/3;
+
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="fondo_azul">
+            <a target="_blank" href="https://misiontic2022.unab.edu.co">
+                <img width="80px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAB7c07FE1Y4CPB-IaH-qDEUI81365vwwFR_FXYb65jqqStKtRad7f4v__df785ltYi4&usqp=CAU"
+                alt="MisionTic 2022"/>
+            </a>
+            Pagina de Elementos HTML
+        </h1> 
+    </header>
+    <nav>Navegacion</nav>
+    <aside>Menu de titulo</aside>
+    <main>Contenido</main>
+    <footer>Pie de pagina</footer>
+</body>
+</html>
